@@ -1,4 +1,4 @@
-package main
+ package main
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Jenkins X golang http example"
+	title := "Jenkins X golang http example version 0.0.2"
 
 	from := ""
 	if r.URL != nil {
